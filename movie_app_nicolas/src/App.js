@@ -38,7 +38,6 @@ function Food({ name, picture, rating }){ //props.fav == {fav}
     );
 }
 
-Food.propTypes = {
 
 }
 
@@ -46,7 +45,7 @@ function App() {
     return (
         <div>
             {foodILike.map(dish => ( // == foodILike.map(function(dish){  })
-            <Food key={dish.id} name={dish.name} picture={dish.image} rating={dish.rating} /> //함수실행.
+            <Food key={dish.id} name={dish.name} picture={dish.image} rating={dish.rating} /> //�븿�닔�떎�뻾.
             ))}
         </div>
     );

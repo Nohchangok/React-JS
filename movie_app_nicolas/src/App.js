@@ -38,9 +38,6 @@ function Food({ name, picture, rating }){ //props.fav == {fav}
     );
 }
 
-
-}
-
 function App() {
     return (
         <div>
